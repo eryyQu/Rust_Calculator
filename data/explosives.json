@@ -1,29 +1,103 @@
 {
-  "items": [
-    {
-      "id": "c4",
-      "name": "Timed Explosive Charge",
-      "cost": {
-        "sulfur": 2200,
-        "metal_fragments": 200,
-        "cloth": 5
+  "explosives": {
+    "c4": {
+      "name": "Timed explosive charge (C4)",
+      "iconUrl": "images/C4.png",
+      "generalMaterials": {
+        "Explosives": 20,
+        "Cloth": 5,
+        "Tech_Trash": 2
+      },
+      "basicMaterials": {
+        "Sulfur": 2200,
+        "Cloth": 20,
+        "Animal_Fat": 45,
+        "Metal_Fragments": 200,
+        "Charcoal": 3000
       }
     },
-    {
-      "id": "rocket",
+    "rocket": {
       "name": "Rocket",
-      "cost": {
-        "sulfur": 1400,
-        "metal_fragments": 100,
-        "low_grade_fuel": 50
+      "iconUrl": "images/rocket.png",
+      "generalMaterials": {
+        "Explosives": 10,
+        "Pipe": 2,
+        "Gun_Powder": 150
+      },
+      "basicMaterials": {
+        "Sulfur": 1400,
+        "Cloth": 8,
+        "Animal_Fat": 23,
+        "Metal_Fragments": 100,
+        "Charcoal": 1950
       }
     },
-    {
-      "id": "satchel",
-      "name": "Satchel Charge",
-      "cost": {
-        "sulfur": 480
+    "Explo_Ammo": {
+      "name": "Explo Ammo",
+      "iconUrl": "images/Explo_Ammo.png",
+      "generalMaterials": {
+        "Gun_Powder": 10,
+        "Sulfur": 5,
+        "Metal_Fragments": 5
+      },
+      "basicMaterials": {
+        "Sulfur": 30,
+        "Charcoal": 30,
+        "Metal_Fragments": 5
       }
+    },
+    "satchel": {
+      "name": "Satchel",
+      "iconUrl": "images/satchel.png",
+      "generalMaterials": {
+        "Rope": 1,
+        "Beancan": 4,
+        "Small_Stash": 1
+      },
+      "basicMaterials": {
+        "Sulfur": 480,
+        "Metal_Fragments": 80,
+        "Charcoal": 720,
+        "Cloth": 10
+      }
+    },
+    "Beancan": {
+      "name": "Beancan",
+      "iconUrl": "images/Beancan.png",
+      "generalMaterials": {
+        "Gun_Powder": 60,
+        "Metal_Fragments": 20
+      },
+      "basicMaterials": {
+        "Sulfur": 120,
+        "Charcoal": 180,
+        "Metal_Fragments": 20
+      }
+    },
+    "Explosives": {
+      "name": "Explosives",
+      "iconUrl": "images/Explosives.png",
+      "generalMaterials": {
+        "Gun_Powder": 50,
+        "Low_Grade_Fuel": 3,
+        "Sulfur": 10,
+        "Metal_Fragments": 10
+      },
+      "basicMaterials": {
+        "Sulfur": 110,
+        "Charcoal": 150,
+        "Cloth": 1,
+        "Animal_Fat": 2.3
+      }
+    },
+    "Gun_Powder": {
+      "name": "Gun Powder",
+      "iconUrl": "images/Gun_Powder.png",
+      "generalMaterials": {
+        "Sulfur": 20,
+        "Charcoal": 30
+      },
+      "basicMaterials": {}
     }
-  ]
+  }
 }
