@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": "c4",
+      "name": "Timed Explosive Charge",
+      "cost": {
+        "sulfur": 2200,
+        "metal_fragments": 200,
+        "cloth": 5
+      }
+    },
+    {
+      "id": "rocket",
+      "name": "Rocket",
+      "cost": {
+        "sulfur": 1400,
+        "metal_fragments": 100,
+        "low_grade_fuel": 50
+      }
+    },
+    {
+      "id": "satchel",
+      "name": "Satchel Charge",
+      "cost": {
+        "sulfur": 480
+      }
+    }
+  ]
+}
