@@ -1,5 +1,6 @@
 [
-  { "date": "21.08.2025", "text": "🎨 Visual Update — New Rust-themed UI (dark industrial palette, orange accents)." },
+  { "date": "21.08.2025", "text": "📄✨ Added a new FAQ page with practical Rust raiding tips (fast sulfur farming, C4 vs Rockets, smelting). Linked in the header as “FAQ”. Minor UI and accessibility polish."
+  { "date": "20.08.2025", "text": "🎨 Visual Update — New Rust-themed UI (dark industrial palette, orange accents)." },
   { "date": "18.08.2025", "text": "🧮 Improved materials summary layout on mobile." },
   { "date": "15.08.2025", "text": "⚙️ Performance tweaks and minor bug fixes." },
   { "date": "04.12.2024", "text": "🔧📦 Added support for new features including updates to Rust tools and materials." }
