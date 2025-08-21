@@ -1,3 +1,3 @@
 # Rust Calculator - GRNG
 
-<img width="1892" height="1079" alt="image" src="https://github.com/user-attachments/assets/92b83454-9b0e-4c3c-a056-a7475f523cb4" />
+<img width="1889" height="1078" alt="image" src="https://github.com/user-attachments/assets/be11a051-2d2d-4b28-8353-22effb34f09e" />
