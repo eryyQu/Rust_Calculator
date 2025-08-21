@@ -289,3 +289,35 @@ input[type="number"]:focus{border-color:var(--brand); background:#0e1117}
   .faq summary{ padding: 12px 14px; }
   .faq details > *:not(summary){ padding: 0 14px 12px 14px; }
 }
+
+/* ---------- Custom scrollbars (global) ---------- */
+/* Firefox */
+html {
+  /* kolor kciuka i tła (thumb track) */
+  scrollbar-width: thin; /* auto | thin | none */
+  scrollbar-color: var(--brand) rgba(255,255,255,0.10);
+}
+
+/* WebKit/Blink: Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.06);             /* ciemne tło toru */
+}
+*::-webkit-scrollbar-thumb {
+  /* ten sam „Rust orange” co w UI */
+  background: linear-gradient(180deg, var(--brand), #ffb347);
+  border-radius: 10px;
+  /* odrobina „oddechu” dookoła kciuka */
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  filter: brightness(1.05);
+}
+*::-webkit-scrollbar-corner { background: transparent; }
+
+/* (opcjonalnie) stałe miejsce na scrollbar – mniej skoków layoutu */
+body { scrollbar-gutter: stable; }
