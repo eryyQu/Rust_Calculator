@@ -1,6 +1,7 @@
 {
   "stone_wall": {
     "name": "Stone Wall",
+    "category": "walls",
     "rocket": 4,
     "c4": 2,
     "satchel": 23,
@@ -9,6 +10,7 @@
 
   "sheet_wall": {
     "name": "Sheet Metal Wall",
+    "category": "walls",
     "rocket": 8,
     "c4": 4,
     "satchel": 46,
@@ -17,6 +19,7 @@
 
   "armored_wall": {
     "name": "Armored Wall",
+    "category": "walls",
     "rocket": 15,
     "c4": 8,
     "satchel": 80,
@@ -25,22 +28,16 @@
 
   "wood_door": {
     "name": "Wood Door",
+    "category": "doors",
     "rocket": 2,
     "c4": 1,
     "satchel": 2,
     "exploAmmo": 19
   },
 
-  "sheet_door": {
-    "name": "Sheet Metal Door",
-    "rocket": 1,
-    "c4": 1,
-    "satchel": 4,
-    "exploAmmo": 63
-  },
-
   "garage_door": {
     "name": "Garage Door",
+    "category": "doors",
     "rocket": 3,
     "c4": 2,
     "satchel": 9,
@@ -49,105 +46,10 @@
 
   "armored_door": {
     "name": "Armored Door",
+    "category": "doors",
     "rocket": 4,
     "c4": 2,
     "satchel": 12,
     "exploAmmo": 200
-  },
-
-  "ladder_hatch": {
-    "name": "Ladder Hatch",
-    "rocket": 2,
-    "c4": 1,
-    "satchel": 4,
-    "exploAmmo": 63
-  },
-
-  "sheet_hatch": {
-    "name": "Sheet Metal Hatch",
-    "rocket": 1,
-    "c4": 1,
-    "satchel": 4,
-    "exploAmmo": 63
-  },
-
-  "armored_hatch": {
-    "name": "Armored Hatch",
-    "rocket": 4,
-    "c4": 2,
-    "satchel": 12,
-    "exploAmmo": 200
-  },
-
-  "metal_window_bars": {
-    "name": "Metal Window Bars",
-    "rocket": 3,
-    "c4": 2,
-    "satchel": 9,
-    "exploAmmo": 150
-  },
-
-  "reinforced_glass": {
-    "name": "Reinforced Glass Window",
-    "rocket": 4,
-    "c4": 2,
-    "satchel": 12,
-    "exploAmmo": 200
-  },
-
-  "high_external_stone": {
-    "name": "High External Stone Wall",
-    "rocket": 2,
-    "c4": 1,
-    "satchel": 10,
-    "exploAmmo": 80
-  },
-
-  "high_external_wood": {
-    "name": "High External Wood Wall",
-    "rocket": 1,
-    "c4": 1,
-    "satchel": 4,
-    "exploAmmo": 49
-  },
-
-  "tool_cupboard": {
-    "name": "Tool Cupboard",
-    "rocket": 2,
-    "c4": 1,
-    "satchel": 9,
-    "exploAmmo": 80
-  },
-
-  "auto_turret": {
-    "name": "Auto Turret",
-    "rocket": 2,
-    "c4": 1,
-    "satchel": 9,
-    "exploAmmo": 80
-  },
-
-  "sam_site": {
-    "name": "SAM Site",
-    "rocket": 2,
-    "c4": 1,
-    "satchel": 9,
-    "exploAmmo": 80
-  },
-
-  "vending_machine": {
-    "name": "Vending Machine",
-    "rocket": 3,
-    "c4": 2,
-    "satchel": 18,
-    "exploAmmo": 160
-  },
-
-  "shop_front": {
-    "name": "Shop Front",
-    "rocket": 3,
-    "c4": 2,
-    "satchel": 18,
-    "exploAmmo": 160
   }
 }
